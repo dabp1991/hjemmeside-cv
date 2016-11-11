@@ -3,7 +3,7 @@ var main = function() {
 
 	$("body").fadeIn(1000);
 
-	//A Method to make the thumbnail fade in when you hover over it.
+	//A Method to make the thumbnail fade in when you hover over it, are used in index.html.
  	$(".thumbnail").hover(
  		function(){
  			$(this).fadeTo("slow", 1);
@@ -14,9 +14,9 @@ var main = function() {
  		});
  	
 
- 	//A method to scroll smooth down to a given element
+ 	//A method to scroll smooth down to a given element, are used in index.html.
  	$(".smoothScroll").click(function() {
- 		if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') ||
+ 		if (location.pathname == this.pathname ||
  			location.hostname == this.hostname) {
  			var target = $(this.hash)
  			target = target.length ? target : $('[name='+this.hash.slice(1)+']');
@@ -29,7 +29,7 @@ var main = function() {
  		}
  	});
 
- 	//Fade the page out when the page changes
+ 	//Fade the page out when the page changes, are used on all the pages.
  	$(document).on("click", ".fadePage", function(){
  		var newUrl = $(this).attr("href");
     	
@@ -44,7 +44,7 @@ var main = function() {
     	return false;
  	});
 
- 	//Running throught the contact forms input and testing that there are inputs.
+ 	//Running throught the contact forms input and testing that there are inputs. Are used in kontakt.html
  	$('form').submit(function() {
     	var name = $('#name').val();		
 	    var email = $('#email').val();
