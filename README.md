@@ -1,3 +1,4 @@
-# hjemmeside-cv
-Just another repository 
-My name is David
+# Hjemmeside-cv
+
+This is a repository for my portfolio homepage.
+Just open the index file to look at the page.
