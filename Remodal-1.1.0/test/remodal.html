@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Remodal Test Suite</title>
+
+    <!-- Load local lib and tests -->
+    <link rel="stylesheet" href="../src/remodal.css">
+    <link rel="stylesheet" href="../src/remodal-default-theme.css">
+    <style>
+    </style>
+</head>
+<body>
+
+<a href="#modal">Call the modal with data-remodal-id="modal"</a>
+
+
+<div class="remodal" data-remodal-id="modal">
+  <h1>Remodal</h1>
+  <p>
+    Responsive, lightweight, fast, synchronized with CSS animations, fully customizable modal window plugin with declarative configuration and hash tracking.
+  </p>
+  <br>
+  <button data-remodal-action="cancel" class="remodal-cancel">Cancel</button>
+  <button data-remodal-action="confirm" class="remodal-confirm">OK</button>
+</div>
+
+
+<div id="target"></div>
+
+   <script src="../libs/jquery-loader.js"></script>
+    <script src="../src/remodal.js"></script>
+    <script src="remodal_test.js"></script>
+</body>
+</html>
