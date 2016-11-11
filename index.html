@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="CSS/bootstrap.min.css">
+	<link rel='stylesheet' type='text/css' href='CSS/main.css'>
+	<link rel="stylesheet" type 'text/css' href="CSS/remodal.css">
+	<link rel="stylesheet" type 'text/css' href="CSS/remodal-default-theme.css">
+</head>
+<body>
+	<div class="wrapper">
+		<div class="header">
+			<div class="container">
+				<div class ="row">
+					<div class = "col-md-6">
+						<h1>David Petersens - online cv</h1>
+					</div>
+					<div class = "pull-right">
+						<ul class="nav nav-pills">
+							<li role = "presentation" class ="active"><a href="index.html">Hjem</a></li>
+							<li role = "presentation"><a class="fadePage" href ="Pages/Om.html">Om</a></li>
+							<li role = "presentation"><a class="smoothScroll" href ="#kodeprojekter">Kode projekter</a></li>
+							<li role = "presentation"><a class="smoothScroll" href ="#akademiske-opgaver">Akademiske opgaver</a></li>
+							<li role = "presentation"><a class="fadePage" href ="Pages/Kontakt.html">Kontakt</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+		<div class="main">
+			<div class="container">
+				<h1>
+					Hej, mit navn er David Petersen og jeg er en web-udvikler der er bosat i Aarhus.
+				</h1>
+			</div>
+		</div>
+		
+		<!--Profilbillede samt et kort tekststykke omkring siden-->
+		<div class="text-part">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+						<img src="Img/Profil - Dabp.jpg">
+					</div>
+					<div class="col-md-8">
+						 <h3>Jeg søger lige nu job som enten front-end eller back-end udvikler i Aarhus omegn</h3>
+						<p>
+							Mit navn er David Petersen og jeg blev her i sommers færdiguddanet cand.it'er i IT- Kommunikation og Organisation fra Aarhus Universitet. 
+							<p>Denne hjemmeside er et eksempel på noget af det HTML/CSS jeg har kodet, hvor Bootstrap frameworket også bliver brugt. Du kan enten se dokumentationen i browseren eller på <a href="Pages/Kode.html">kode siden</a>, hvor der også eksempler på projekter jeg har lavet i javascript og c#.</p>
+							Hvis du vil vide lidt mere om mig, kan du gå ind på <a href="Pages/Om.html">om siden</a> hvor der vil være en mere uddybende beskrivelse af hvem jeg er og hvad jeg kan tilbyde en kommende arbejdsgiver. 
+							På denne hjemmeside er der også en mulighed for at se på mine <a href ="Pages/Projekter.html">akademiske opgaver</a> fra universitetet. 
+							<p>Føl dig fri til at kigge på det hele, og hvis der er noget af det der vækker interesse, kan du kontakte mig dabp1@hotmail.com eller skrive en kontakt formular <a href="Pages/kontakt.html">her</a>. </p>
+	
+							<p>Vh. David Alexander Bjerrum Petersen</p>				
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!-- Kode projekter-->
+		<div class="gallery">
+			<div class="container" id="kodeprojekter">
+				<h1>Kodeprojekter</h1>
+				<div class="row">
+					<div class="col-md-4">
+						<a href="#modal-html" class="thumbnail"><img src="Img/Html-logo.jpg"></a>
+					</div>
+					<div class="remodal" data-remodal-id="modal-html">
+					  	<h1>HTML, CSS, Bootstrap</h1>
+						<p>Denne hjemmeside er lavet som et html projekt, med hjælp af bootstrap3 grids og CSS, føl dig fri til at kigge på kildekoden i din browser</p>
+						<img src="Img/Html-billede.PNG">
+					</div>					
+
+					<!--C# kodeprojekt-->
+					<div class="col-md-4">
+						<a href="#modal-c#" class="thumbnail"><img src="Img/c_sharp-logo.png"></a>
+					</div>
+					<div class="remodal" data-remodal-id="modal-c#">
+					  <h1>C#</h1>
+								<p>Dette projekt er et eksamensprojekt jeg har lavet på Aarhus Universitet.</p>
+								<p>Projektet er et adventurespil hvor man er på bytur i Aarhus og skal finde frem til en bestemt bar</p>
+								<p>Jeg har stået for alt koden og strukturen, mens resten af min gruppe stod for historien</p>
+								<p>I spillet er der både karakterer, items, inventar, specielle events, et score system og muligheden for at gemme og hente sit spil. Spillet i sig selv er ikke super interessant, men viser hvilke ting jeg kan lave i C#</p>
+								<p>I spillet er det forsøgt at programmerre ud fra høj cohesion i de enkelte klasser</p>
+					   <a href="Filer/Eksamensprojekt-i-Csharp.zip">Eksamensprojekt i C# (zip-fil), 204kb</a>
+					   <p></p>
+					   <img src="Img/Csharp-billede.PNG">
+					</div>
+
+					<!--Javascript/jQuery-->
+					<div class="col-md-4">
+						<a href="#modal-js" class="thumbnail"><img src="Img/JavaScript-logo.png"></a>
+					</div>
+					<div class="remodal" data-remodal-id="modal-js">
+							<h2>Javascript og jQuery</h2>
+							<p>Jeg har den sidste måneds tid arbejdet med javascript, og der vil inden så længe, blive uploadet et produkt på denne her side der viser hvilke ting jeg kan lave i Javascript. Samtidig er der på denne her sidde blevet brugt jQuery til at 
+								tilføje ekstra funktionaliteter, som pop-up vinduer m.m.</p>
+							<p></p>
+							<img src="Img/Js-billede.png">
+			    	</div>
+				</div>
+			</div>
+		</div>
+
+		<!--Akademiske opgaver*/-->
+		<div class="gallery" id="body-bottom">
+			<div class="container" id="akademiske-opgaver">
+				<h1>Akademiske opgaver</h1>
+				<div class="row">
+					
+					<!--Poløk opgave-->
+					<div class="col-md-4">
+						<a href="#modal-poløk" class="thumbnail"><h3>Juridiske personer i USA</h3>
+						</a>
+					</div>
+					<div class="remodal" data-remodal-id="modal-poløk">
+							<h2>Politisk og Økonomisk historie opgave</h2>
+							<p><Strong>Titel</strong> - Juridiske personer i USA.</p>
+							<p>En større opgave der omhandler hvordan konceptet omkring virksomheder som juridiske entiteter, har medvirket til at skabe finanskrisen</p>
+							Projektet blev afleveret d. 7/1-2013. </p>
+							<a href= "Filer/Juridiske personer i USA.pdf">Juridiske personer i USA - David Petersen</a>
+							<p></p>
+							<img src="Img/Juridical personhood.jpg">
+			    	</div>
+					
+					<!--Bachelorprojekt-->
+					<div class="col-md-4">
+						<a href="#modal-bachelor" class="thumbnail"><h3>Bachelorprojekt</h3></a>
+					</div>
+					<div class="remodal" data-remodal-id="modal-bachelor">
+						<h2>Bacheloropgave </h2>
+						<p><Strong>Titel</strong> Softwarepatenter i USA.</p>
+						<p>Opgaven omhandler softwarepatenter i USA og hvordan deres konstruktion er med til at underminere innovation og start-ups. </p>
+						Projektet blev afleveret d. 13/12-2013. </p>
+						<a href= "Filer/Bachelor dabp - Softwarepatenter i USA.pdf">Bacheloropgave - David Petersen</a>
+						<p></p>
+						<img src="Img/Software-Patents.jpg">
+			    	</div>
+
+					<!--Specialet-->
+					<div class="col-md-4">
+						<a href="#modal-speciale" class="thumbnail"><h3>Speciale</h3></a>
+					</div>
+					<div class="remodal" data-remodal-id="modal-speciale">
+						<h1>Speciale på IT- Kommunikation og Organisation. </h1>
+						<p><Strong>Titel</strong> - Identitetsskabelse i incubatorer - Et case study af IT-incubatorers betydning for IT-entrepreneurers identitetsskabelse.</p>
+						<p>Specialet omhandler IT-entreprenenørers identitet som entreprenører, og hvordan en stærk identifikation med det at være entreprenører, har betydning for deres succes som entreprenører</p>
+						Projektet blev afleveret d. 1/6-2016. </p>
+
+						<a href= "Filer/David Petersen - Identitetsskabelse i Incubatorer.pdf">Speciale - David Petersen</a>
+						<p></p>
+						<img src="Img/Speciale.jpg">
+			    	</div>
+					
+				</div>
+			</div>
+	 	</div>
+
+		<div class="footer">
+			<div class="container">
+				<h4>Andre medier</h4>
+				<ul>
+					<li><a href= "https://dk.linkedin.com/in/david-alexander-bjerrum-petersen-24201b79">Linkedin</a></li>
+					<li><a href="Pages/Kontakt.html">Kontakt</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+<!--Scripts.-->
+<script type="text/javascript" src="Js/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="Js/remodal.min.js"></script>
+<script type="text/javascript" src="Js/main.js"></script>
+
+ </body>
+
+</html>
